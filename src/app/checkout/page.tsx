@@ -23,7 +23,7 @@ export default function CheckoutPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8 text-center">Checkout</h1>
-      <Card className="max-w-md mx-auto mb-8">
+      <Card>
         <CardHeader>
           <CardTitle className="text-xl font-bold">Order Summary</CardTitle>
         </CardHeader>
