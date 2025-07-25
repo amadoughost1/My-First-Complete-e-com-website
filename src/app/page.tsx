@@ -16,10 +16,12 @@ export default async function Home() {
         <div className="mx-auto grid grid-cols-1 items-center justify-items-center gap-8 px-8 sm:px-16 md:grid-cols-2">
           <div className="max-w-md space-y-4">
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-              Welcome to My Ecommerce
+              Bienvenue chez Global Parfumerie
             </h2>
             <p className="text-neutral-600">
-              Discover the latest products at the best prices.
+              Découvrez notre sélection de parfum rare et craquez pour leurs senteurs exceptionnelles.
+Un savoir-faire irréprochable pour un prix imbattable, Venez découvrir nos fragrances rares venues d'ailleurs.
+Laissez vous tenter et surtout ne sentez pas comme tout le monde....!
             </p>
             <Button
               asChild
@@ -30,7 +32,7 @@ export default async function Home() {
                 href="/products"
                 className="inline-flex items-center justify-center rounded-full px-6 py-3"
               >
-                Browse All Products
+                Parcourir la collection
               </Link>
             </Button>
           </div>
