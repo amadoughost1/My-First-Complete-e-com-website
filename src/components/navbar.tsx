@@ -13,7 +13,11 @@ import { useCartStore } from "@/app/store/cart-store";
 export const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const { items } = useCartStore();
-  const cartCount = items.reduce((acc: any, item: { quantity: any; }) => acc + item.quantity, 0);
+  const cartCount = items.reduce(
+  (acc: number, item: { quantity: number }) => acc + item.quantity,
+  0
+);
+
 
   useEffect(() => {
     const handleResize = () => {

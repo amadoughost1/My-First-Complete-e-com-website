@@ -19,9 +19,9 @@ export default async function Home() {
               Bienvenue chez Global Parfumerie
             </h2>
             <p className="text-neutral-600">
-              Découvrez notre sélection de parfum rare et craquez pour leurs senteurs exceptionnelles.
-Un savoir-faire irréprochable pour un prix imbattable, Venez découvrir nos fragrances rares venues d'ailleurs.
-Laissez vous tenter et surtout ne sentez pas comme tout le monde....!
+                &quot;D&eacute;couvrez notre s&eacute;lection de parfum rare et craquez pour leurs senteurs exceptionnelles.
+  Un savoir-faire irr&eacute;prochable pour un prix imbattable, Venez d&eacute;couvrir nos fragrances rares venues d&apos;ailleurs.
+  Laissez-vous tenter et surtout ne sentez pas comme tout le monde....!&quot;
             </p>
             <Button
               asChild
